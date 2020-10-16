@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\obj\hw_config.o"
+".\obj\main.o"
+".\obj\stm32f10x_it.o"
+".\obj\usb_desc.o"
+".\obj\usb_endp.o"
+".\obj\usb_istr.o"
+".\obj\usb_prop.o"
+".\obj\usb_pwr.o"
+".\obj\usb_core.o"
+".\obj\usb_init.o"
+".\obj\usb_int.o"
+".\obj\usb_mem.o"
+".\obj\usb_regs.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\misc.o"
+".\obj\stm32f10x_adc.o"
+".\obj\stm32f10x_dma.o"
+".\obj\stm32f10x_exti.o"
+".\obj\stm32f10x_tim.o"
+".\obj\startup_stm32f10x_md.o"
+".\obj\system_stm32f10x.o"
+".\obj\core_cm3.o"
+--library_type=microlib --strict --scatter ".\Obj\E3-2020-V01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\E3-2020-V01.map" -o .\Obj\E3-2020-V01.axf

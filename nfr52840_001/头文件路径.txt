@@ -1,0 +1,6 @@
+.\drive;
+.\modules\nrfx\hal;
+.\modules\nrfx;
+.\integration\nrfx;
+.\components\libraries\util;
+.\components\softdevice\s112\headers
